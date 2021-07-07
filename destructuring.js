@@ -54,6 +54,10 @@ console.log(wifi, bluetooth);
 
 const connectivity = ['wifi', 'bluetooth'];
 
+const [first, second] = connectivity;
+
+console.log(first);
+console.log(second);
 
 // Opdracht 5: Destructure de >eerste< en >derde< waarde uit onderstaande array, en log ze daarna in de terminal
 
