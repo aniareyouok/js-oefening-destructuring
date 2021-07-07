@@ -63,6 +63,10 @@ console.log(second);
 
 const tvSizes = [41, 43, 46, 56, 65];
 
+const [fourone,,foursix] = tvSizes;
+
+console.log(fourone);
+console.log(foursix);
 
 // opdracht 6: Destructure name en adress uit de return value van deze functie en log ze daarna in de terminal
 
